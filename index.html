@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>textraño mucho</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Primero dale clic acá:</h1>
+
+  <button class="song-btn" onclick="playSong()">Clic aquí para la canción</button>
+
+  <h1>Ahora acá</h1>
+  <div class="card" onclick="openCard()">
+    <div class="card-front">
+      <p>Me haces mucha falta</p>
+    </div>
+    <div class="card-inner">
+      <p id="message">Lunes 4 y no estás...</p>
+    </div>
+  </div>
+
+  <!-- Si miras el codigo, te extraño mucho -->
+  <h1>Y por último, acá</h1>
+  <button class="young-btn" onclick="showYoung()">Clic aquí</button>
+  
+  <div id="young-container">
+    <img src="https://cdns-images.dzcdn.net/images/artist/7a8616ba5df4e49b5f05da2ec912c1a5/1900x1900-000000-80-0-0.jpg" alt="Young Cister" id="young-photo">
+    <p id="young-text">El Young :) </p>
+  </div>
+
+  <audio id="song-audio" src="hola.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
